@@ -19,7 +19,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "myresourcegroup" {
-  name     = "jhsim-workshop"
+  name     = "test-workshop"
   location = var.location
 
   tags = {
